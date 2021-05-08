@@ -3,7 +3,7 @@
   src: url("fonts/koe-benson.ttf");
 }
 
-body{
+body {
   background-image: url("../images/fondo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -11,14 +11,15 @@ body{
   background-size: cover;
   background-color: black;
   color: beige;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  text-rendering: optimizeLegibility !important;
 }
 
-.Brand{
+.Brand {
   font-family: "Koe Benson";
   font-size: 9vmax;
 }
 
-.spacing{
-  letter-spacing: .1em;
+.spacing {
+  letter-spacing: 0.1em;
 }
-
