@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Koe Benson";
+  src: url("fonts/koe-benson.ttf");
+}
+
+body{
+  background-image: url("../images/fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Brand{
+  font-family: "Koe Benson";
+  font-size: 10vmax;
+}
+
