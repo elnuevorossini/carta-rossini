@@ -9,10 +9,12 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: black;
+  color: beige;
 }
 
 .Brand{
   font-family: "Koe Benson";
-  font-size: 10vmax;
+  font-size: 9vmax;
 }
 
