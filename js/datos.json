@@ -1,0 +1,108 @@
+{
+  "raciones": [
+    {
+      "id": 1,
+      "nombre": "Patatas bravas con ketchup, salsa brava y mayonesa",
+      "precio": "6,50€"
+    },
+    {
+      "id": 2,
+      "nombre": "Secreto ibérico con patatas o pimientos de Padrón",
+      "precio": "11,50€"
+    },
+    {
+      "id": 3,
+      "nombre": "Alitas de pollo con salsa sweet chilli",
+      "precio": "8€"
+    },
+    {
+      "id": 4,
+      "nombre": "ensaladilla rusa",
+      "precio": "7€"
+    },
+    {
+      "id": 5,
+      "nombre": "calamares a la andaluza",
+      "precio": "12€"
+    },
+    {
+      "id": 6,
+      "nombre": "tira de torreznos con picos",
+      "precio": "3€"
+    },
+    {
+      "id": 7,
+      "nombre": "torreznos con pimientos de padrón",
+      "precio": "8,50€"
+    },
+    {
+      "id": 8,
+      "nombre": "gambas envueltas",
+      "precio": "11€"
+    },
+    {
+      "id": 9,
+      "nombre": "Escalope de pollo con salsa sweet chilli",
+      "precio": "7€"
+    },
+    {
+      "id": 10,
+      "nombre": "pimientos de padrón",
+      "precio": "5€"
+    },
+    {
+      "id": 11,
+      "nombre": "croquetas premium (jamón, boletus, rabo de toro)",
+      "precio": "8€"
+    },
+    {
+      "id": 12,
+      "nombre": "rollitos rellenos de morcilla y manzana",
+      "precio": "7€"
+    },
+    {
+      "id": 13,
+      "nombre": "jamón ibérico con picos",
+      "precio": "14,50€"
+    },
+    {
+      "id": 14,
+      "nombre": "surtido de ibericos con picos (chorizo, lomo, salchichón y jamón)",
+      "precio": "13€"
+    },
+    {
+      "id": 15,
+      "nombre": "tabla de quesos con nueces, picos y uvas",
+      "precio": "11€"
+    },
+    {
+      "id": 16,
+      "nombre": "sandwich mixto",
+      "precio": "3€"
+    },
+    {
+      "id": 17,
+      "nombre": "salchipapas",
+      "precio": "7€"
+    }
+  ],
+  "ensaladas": [
+    {
+      "id": 1,
+      "nombre": "Aguacate con tomate y cebolla",
+      "precio": "9.50€"
+    },
+    {
+      "id": 2,
+      "nombre": "Ventresca con tomate y cebolla",
+      "precio": "8.50€"
+    }
+  ],
+  "postres": [
+    {
+      "id": 1,
+      "nombre": "copa de helado dos bolas(chocolate, vainilla, fresa, mango)",
+      "precio": "3.50€"
+    }
+  ]
+}
