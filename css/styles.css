@@ -17,9 +17,27 @@ body {
 
 .Brand {
   font-family: "Koe Benson";
-  font-size: 9vmax;
+  font-size: 9.5vmax;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .spacing {
   letter-spacing: 0.1em;
+}
+
+.text-xs {
+  font-size: 0.85rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+.font-thin {
+  font-weight: 200;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
 }

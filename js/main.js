@@ -11,36 +11,48 @@ function mostrarElementos() {
       .then((raciones) => {
         let vista = raciones["raciones"]
           .map((racion) => {
-            return `<article class="racion__item text-uppercase">
-           <div>${racion.nombre}</div>
-           <div>${racion.precio}</div>
-        `;
+            return `<div class="px-4 py-2 racion__item text-uppercase">
+           <div class="d-flex justify-content-between items-center">
+           <div>
+           <p class="font-thin leading-tight">${racion.nombre} </p>
+           </div>
+           <span class="ms-4 flex-shrink-0 font-thin">${racion.precio}</span>
+           </div>
+           </div>`;
           })
           .join("");
 
-        contenedorRaciones.innerHTML = vista;
+        contenedorRaciones.innerHTML += vista;
 
         vista = raciones["ensaladas"]
           .map((ensalada) => {
-            return `<article class="racion__item text-uppercase">
-           <div>${ensalada.nombre}</div>
-           <div>${ensalada.precio}</div>
-        `;
+            return `<div class="px-4 py-2 racion__item text-uppercase">
+            <div class="d-flex justify-content-between items-center">
+            <div>
+            <p class="font-thin leading-tight">${ensalada.nombre} </p>
+            </div>
+            <span class="ms-4 flex-shrink-0 font-thin">${ensalada.precio}</span>
+            </div>
+            </div>`;
           })
           .join("");
 
-        contenedorEnsaladas.innerHTML = vista;
+        contenedorEnsaladas.innerHTML += vista;
 
         vista = raciones["postres"]
           .map((postre) => {
-            return `<article class="racion__item text-uppercase">
-           <div>${postre.nombre}</div>
-           <div>${postre.precio}</div>
-        `;
+            return `<div class="px-4 py-2 racion__item text-uppercase">
+            <div class="d-flex justify-content-between items-center">
+            <div>
+            <p class="font-thin leading-tight">${postre.nombre} </p>
+            </div>
+            <span class="ms-4 flex-shrink-0 font-thin">${postre.precio}</span>
+            </div>
+            </div>`;
           })
           .join("");
 
-        contenedorPostres.innerHTML = vista;
+        contenedorPostres.innerHTML += vista;
       });
   }
 
