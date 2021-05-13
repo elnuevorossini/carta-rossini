@@ -9,6 +9,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-color: black;
   color: beige;
   -webkit-font-smoothing: subpixel-antialiased !important;
