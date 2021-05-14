@@ -9,9 +9,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-color: black;
   color: beige;
   -webkit-font-smoothing: subpixel-antialiased !important;
@@ -43,4 +40,7 @@ body {
 }
 .flex-shrink-0 {
   flex-shrink: 0;
+}
+.device-ios .parallax-strip {
+  background-attachment:fixed !important;
 }

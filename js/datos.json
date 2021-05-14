@@ -26,6 +26,11 @@
       "precio": "12€"
     },
     {
+      "id": 18,
+      "nombre": "boquerones fritos con patatas",
+      "precio": "11,50€"
+    },
+    {
       "id": 6,
       "nombre": "tira de torreznos con picos",
       "precio": "3€"
@@ -85,6 +90,7 @@
       "nombre": "salchipapas",
       "precio": "7€"
     }
+    
   ],
   "ensaladas": [
     {
